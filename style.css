@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  border-top: rgb(255, 47, 0) solid 10px;
+  font-family: sans-serif;
+  color: rgb(155, 23, 23);
+  background-color: rgb(222, 222, 170);
+  line-height: 1.5;
+}
+#topheader {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+}
+#links {
+  text-align: center;
+}
+a:link {
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(27, 61, 227);
+}
+a:hover {
+  background-color: orangered;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgb(255, 47, 0);
+  position: relative;
+}
+#top {
+  text-transform: uppercase;
+  color: rgb(254, 1, 1);
+  font-weight: bold;
+  font-size: 15px;
+  background-color: yellow;
+  display: inline-block;
+  padding: 5px 20px;
+  position: absolute;
+  top: -5px;
+  right: -50px;
+}
+
+h2 {
+  color: rgb(255, 47, 0);
+}
+h3 {
+  margin: 20px;
+}
+
+article {
+  padding: 10px 20px;
+}
+#rdimg {
+  width: 50px;
+}
+#mlimg {
+  width: 100%;
+}
+
+.list {
+  padding-left: 40px;
+  margin: 20px 0;
+}
+
+.h2margin {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.rpimg {
+  width: 80px;
+  height: 80px;
+}
+
+.rplist {
+  list-style: none;
+}
+
+aside {
+  border-top: 10px solid red;
+  border-bottom: 10px solid red;
+  background-color: antiquewhite;
+  width: 70%;
+}
+
+.wholebody {
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgb(235, 235, 198);
+  position: relative;
+}
+footer {
+  padding: 10px;
+}
+
+.likebtn {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  font-size: 25px;
+  bottom: 20px;
+  right: -250px;
+  /* top: 0; */
+  /* left: 0; */
+}
